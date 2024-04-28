@@ -1,0 +1,676 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Sentiment"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/PositiveKeyword"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Sentiment"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/NegativeKeyword"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#rational"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasRating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontología de la encuesta de satisfacción de los vuelos de Qatar Airways y Ryanair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "Antonio Carrasco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "pec2"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasAirline" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/QatarAirways"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasTitle" : [ {
+    "@value" : "I hope they update the A380"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasAirline" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/QatarAirways"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasFlight" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/AucklandDoha"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasTitle" : [ {
+    "@value" : "I’d rate them maybe 7/10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasAirline" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Ryanair"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasTitle" : [ {
+    "@value" : "they are really not better value"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#At1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/CustomerSupport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#At2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/CustomerSupport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#Great",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/PositiveKeyword"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "different airplane models"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The different airlens"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Aspects on which it has been valued"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aspect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Attention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Care received"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Attention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Auckland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/AucklandDoha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/DestinationFlight" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Doha"
+  } ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/OriginFlight" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Auckland"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Authors who responded to the survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Boeing360",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@value" : "https://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FBoeing_Model_360&sid=67863"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/CheckIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Check-in service for clients"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CheckIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The different classes offered by the flight, such as tourist, business..."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Seat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Cost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Experience that the client has had regarding the costs of some service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cost"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Different countries of the flights, both origin and destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Crew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "everything related to the flight crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/CustomerSupport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "All the support the customers need"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CustomerSupport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/DestinationFlight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Destination country for the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Doha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Country"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@value" : "https://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FDoha&sid=67863"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/ExcelentCustomerSupport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/CustomerSupport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/ExcelentFlightReservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FlightReservation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/ExcelentFoodService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FoodService"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "All the flight details"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FlightComfort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Comfort in flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FlightComfort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FlightPunctuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Punctuality of the flight in the user experience"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FlightPunctuality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FlightReservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Service for reservation the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FlightReservation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FlightTicketManagement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "All the ticket management as buy or solve an issue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FlightTicketManagement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FoodService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Food and drink service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FoodService"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Luggage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Luggage service that the client can use"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Luggage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/NegativeKeyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Keywords used to express negative feelings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "NegativeKeyword"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Sentiment"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/OriginFlight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Origin country for the flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Pilot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Crew"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@value" : "https://dbpedia.org/describe/?url=http%3A%2F%2Fdbpedia.org%2Fresource%2FAircraft_pilot&sid=67863"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "User positions such as near the window, in the hallway..."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Position"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Seat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/PositiveKeyword",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Keywords used to express positive feelings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PositiveKeyword"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Sentiment"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/QatarAirways",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Punctuality of the flight that the client has had in their experience"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The responses in the satisfaction study"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Ryanair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Seat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Different seat details"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Sentiment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Feelings conveyed in the response"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sentiment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Services that the client can use"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Service"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Different sizes of seats"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Size"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Seat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Speed ​​of different actions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Speed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Aspect"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/TypeTraveller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Different kind of travellers as business, family, etc..."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TypeTraveller"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/W_Warnock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5#4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Author"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasAirline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Airline used by the client"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasDatePublished",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Date the review was published"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasFlight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Flight"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Valoracion numérica registrada por el usuario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The customer review title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/CustomerSupport"
+  }, {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FlightReservation"
+  }, {
+    "@id" : "http://www.semanticweb.org/antonio/ontologies/2024/3/untitled-ontology-5/FoodService"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "pec2"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
